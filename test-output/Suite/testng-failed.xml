@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_100TastCases(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Selenium_Practice.IfWeHave100TestCases">
+        <methods>
+          <include name="TC_001_VerifyHomePage"/>
+          <include name="TC_001_VerifySignUpPage"/>
+        </methods>
+      </class> <!-- Selenium_Practice.IfWeHave100TestCases -->
+    </classes>
+  </test> <!-- Test_100TastCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
